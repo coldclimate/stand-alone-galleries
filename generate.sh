@@ -1,5 +1,7 @@
 #!/bin/bash
 set -eux
+type convert >/dev/null 2>&1 || { echo >&2 "I require convert but it's not installed.  Aborting."; exit 1; }
+
 for i in `ls output/images/fullsize/`
 do
 echo ${i}
