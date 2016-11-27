@@ -1,2 +1,0 @@
-export TITLE="Glowy things"
-export INTRO="A night messing about with John Hill and a lot of LEDs"
